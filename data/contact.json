@@ -1,0 +1,15 @@
+{
+  "phone": "+20 10 1234 5678",
+  "whatsapp": "201150920104",
+  "whatsappMessage": "مرحباً، أود حجز استشارة قانونية.",
+  "email": "contact@gpslawfirm.com",
+  "officeAddress": "التجمع الخامس، القاهرة ، مصر",
+  "googleMapsUrl": "https://maps.google.com/?q=Cairo",
+  "workingHours": "من الأحد إلى الخميس: 9 صباحاً - 6 مساءً",
+  "socialMedia": {
+    "facebook": "https://facebook.com/gpslawfirm",
+    "instagram": "https://instagram.com/gpslawfirm",
+    "linkedin": "https://linkedin.com/company/gpslawfirm",
+    "twitter": "https://twitter.com/gpslawfirm"
+  }
+}

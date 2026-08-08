@@ -1,0 +1,25 @@
+{
+  "heading": "معرض الصور",
+  "subheading": "لقطات من داخل المكتب والمؤتمرات.",
+  "items": [
+    {
+      "id": "1",
+      "type": "image",
+      "src": "/image-1.jpg",
+      "category": "المكتب"
+    },
+    {
+      "id": "2",
+      "type": "image",
+      "src": "/image-2.jpg",
+      "category": "المحامي"
+    },
+    {
+      "id": "3",
+      "type": "video",
+      "src": "/video-1.mp4",
+      "poster": "/image-3.jpg",
+      "category": "الاجتماعات"
+    }
+  ]
+}

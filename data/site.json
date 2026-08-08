@@ -1,0 +1,22 @@
+{
+  "name": "GPS للمحاماة والاستشارات القانونية والقضائية",
+  "tagline": "سكة القانون محتاجه جي بي اس",
+  "lawyerName": "الأستاذ / سلطان عزت",
+  "professionalTitle": "محامٍ بالنقض والإدارية العليا ومحكم معتمد ومستشار قانوني.",
+  "yearsOfExperience": 15,
+  "clientsCount": 1200,
+  "successRate": 98,
+  "logo": {
+    "src": "/images/logo.png",
+    "alt": "GPS Legal Solutions"
+  },
+  "visibleSections": {
+    "hero": true,
+    "services": true,
+    "whyChooseUs": true,
+    "timeline": true,
+    "gallery": true,
+    "testimonials": true,
+    "faq": true
+  }
+}

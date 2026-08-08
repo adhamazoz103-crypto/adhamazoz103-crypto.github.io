@@ -1,0 +1,74 @@
+/* ============================================================
+ * GPS Landing Page System — Design System
+ * ============================================================
+ * Tailwind CSS v4 theme tokens, keyframes, and base styles.
+ * This is the SINGLE source of CSS design tokens.
+ * ============================================================ */
+
+@import "tailwindcss";
+
+/* ─── Design Tokens ─── */
+
+@theme {
+  /* Colors */
+  --color-background: #050505;
+  --color-section: #101010;
+  --color-card: #151515;
+  --color-card-hover: #1a1a1a;
+  --color-primary-text: #FFFFFF;
+  --color-secondary-text: #B5B5B5;
+  --color-gold: #C79A2B;
+  --color-gold-hover: #D4A83A;
+  --color-gold-light: rgba(199, 154, 43, 0.1);
+  --color-gold-glow: rgba(199, 154, 43, 0.15);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-hover: rgba(255, 255, 255, 0.15);
+
+  /* Animations */
+  --animate-slow-zoom: slowZoom 8s ease-in-out forwards;
+  --animate-pulse-gold: pulseGold 3s ease-in-out infinite;
+}
+
+/* ─── Keyframes ─── */
+
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(199, 154, 43, 0.2); }
+  50% { box-shadow: 0 0 20px 5px rgba(199, 154, 43, 0.1); }
+}
+
+/* ─── Base Styles ─── */
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(199, 154, 43, 0.3) #050505;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(199, 154, 43, 0.3);
+  color: #FFFFFF;
+}
+
+/* Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(199, 154, 43, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(199, 154, 43, 0.5);
+}
